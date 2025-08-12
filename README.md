@@ -1,2 +1,1 @@
-# tanita2_engine
-Trickster games editor (C++ part)
+# Trickster games editor (C++ part)
