@@ -14,8 +14,5 @@ cmake -A Win32 ..
 ```
 
 ## Сборка:
-```cmd
-cd build
-cmake --build .
-```
-
+* Открываем `EDITOR.sln` в Visual Studio 2008 Express
+* Build -> Build Solution
