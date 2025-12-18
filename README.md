@@ -8,8 +8,11 @@
 * CMake 3.25.3
 
 Затем запускаем:
-```cmd
+
+```console
 mdkir build
 cd build
 cmake -A Win32 ..
 ```
+
+После этого открываем solution в Visual Studio Express и компилируем сборку.
