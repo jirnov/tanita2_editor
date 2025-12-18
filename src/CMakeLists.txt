@@ -21,7 +21,7 @@ SET( STD_LIBRARIES
     dinput8
     d3d9
     d3dx9
-    dxerr9
+    dxerr
     dsound
     gdi32
     shell32

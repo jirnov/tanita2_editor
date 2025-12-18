@@ -218,8 +218,8 @@ DirectXException_::DirectXException_( const std::string & info, long hr,
 {
     description += boost::str(format("\nMessage: \"%1%\" call failed with"
                                      " the following error (%2%): %3%")
-                                     % info % DXGetErrorString9(hr)
-                                     % DXGetErrorDescription9(hr));
+                                     % info % DXGetErrorString(hr)
+                                     % DXGetErrorDescription(hr));
 }
 
 // Constructor

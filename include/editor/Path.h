@@ -126,8 +126,10 @@ protected:
         inline bp::object KeyPointContainer::iteritems()
         {
             bp::list t;
-            for (KPIter i = kp.begin(); i != kp.end(); ++i)
-                t.append(make_tuple(i->first, i->second));
+			for (KPIter i = kp.begin(); i != kp.end(); ++i) {
+				bp::tuple item = make_tuple(i->first, i->second);
+				t.append(item);
+			}
             return t;
         }
         
